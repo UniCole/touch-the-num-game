@@ -1,4 +1,4 @@
-# Touch The Number Game
+# Touch The Numbers Game
 ## Browser game based on: HTML, CSS, Javascript
 
 ### Project requirements:
