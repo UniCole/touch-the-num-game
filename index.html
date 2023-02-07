@@ -22,25 +22,28 @@
 
     <h1>Touch The Numbers!</h1>
 
-    <div style="font-family: 'Orbitron', sans-serif;" class="timer">
+    <div class="timer">
         <label id="minutes">00</label><span>:</span><label id="seconds">00</label>
     </div>
 
+    
     <table border="1" cellpadding="10">
         <tbody class="board"></tbody>
     </table>
 
-    <div class="buttons">
+    <div class="levelButtons">
         <button onclick="changeLevel(16)">EASY (16)</button>
         <button onclick="changeLevel(25)">MEDIUM (25)</button>
         <button onclick="changeLevel(36)">HARD (36)</button>
         <button onclick="changeLevel(64)">EXTREME (64)</button>
     </div>
 
+
     <button class="restart" onclick="initGame()">RESTART</button>
-    </div>
-
-
+<br>
+    <button id="soundBtn" onclick="muteAudio()">
+        <img class="mute" src="../assets/images/volume.png">
+      </button>
 </body>
 
 </html>

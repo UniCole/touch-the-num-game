@@ -1,7 +1,7 @@
-'use strict'
+// 'use strict'
 
 function shuffle(items) {
-  var randIdx, keep, i;
+  let randIdx, keep, i;
   for (i = items.length - 1; i > 0; i--) {
     randIdx = getRandomInt(0, items.length - 1); 
 
